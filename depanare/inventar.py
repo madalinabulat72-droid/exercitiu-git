@@ -44,7 +44,7 @@ def peste_prag(tinte, prag):
             continue
         if port > prag:
             rezultat.append(t["gazda"])
-        return rezultat
+    return rezultat
 
 
 def main():
